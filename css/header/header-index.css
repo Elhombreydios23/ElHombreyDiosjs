@@ -81,3 +81,33 @@
     color: red;
     font-size: 50px;
 }
+@media screen and (min-width: 900px) and (max-width: 999px){
+    .header-index{
+        height: 350px;
+    }
+    .info{
+        bottom: 10px;
+        left: 4px;
+
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 899px){
+    .header-index{
+        height: 320px;
+    }
+    .info{
+        bottom: 10px;
+        left: 4px;
+
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 799px){
+    .header-index{
+        height: 250px;
+    }
+    .info{
+        bottom: 10px;
+        left: 4px;
+
+    }
+}

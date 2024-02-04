@@ -1,0 +1,193 @@
+.nav{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.logo{
+    position: absolute; 
+    top: 10px;
+    left: 100px;
+    width: 75px;
+    height: 75px;
+}
+.logo_img{
+    width: 100%;
+    height: 100%;
+}
+/*nav principal*/
+.logoone{
+    width: 100%;
+    height: 50%;
+}
+.logotwo{
+    width: 100%;
+    height: 50%;
+    background-color: #1a1313;
+}
+
+/*nav one */
+
+.titulo-principal{
+    width: 30%;
+    margin-left: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.titulo-principal_h1{
+    color: #1a1313;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* nav two*/
+
+.menu{
+    width: 30%;
+    margin-left: 60%;
+    height: 100%;
+  
+    display: flex;
+    grid-gap:1% ;
+
+}
+.Desarrollo-personal,.Libros,.Historias{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+}
+.Desarrollo-personal-logo,.Libros-logo,.Historia-logo{
+    width: 30%;
+    height: 100%;
+   
+}
+.Desarrollo-personal_div,.Libros_div,.Historias_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.Desarrollo-personal-titulo,.Libros-titulo,.Historias-titulo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icono{
+    width: 100%;
+    height: 100%;
+}
+.parrafo-header{
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+.parrafo-header:hover{
+    color: red;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px){
+    .menu{
+        width: 45%;
+        margin-left: 55%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 899px){ 
+    .titulo-principal{
+        width: 31%;
+    }
+.titulo-principal_h1{
+    font-size: 27px;
+}
+.logo{
+ left: 81px;
+}
+.menu{
+    width: 50%;
+    margin-left: 50%;
+}
+
+}
+@media screen and (min-width: 700px) and (max-width: 799px){ 
+    .titulo-principal{
+        width: 40%;
+    }
+    
+    .titulo-principal_h1{
+        font-size: 24px;
+    }
+    .logo{
+     left: 81px;
+    }
+    .menu{
+        width: 50%;
+        margin-left: 50%;
+    }
+    
+    }
+@media screen and (min-width: 600px) and (max-width: 699px){ 
+        .titulo-principal{
+            width: 50%;
+        }
+        
+        .titulo-principal_h1{
+            font-size: 22.5px;
+        }
+        .logo{
+         left: 46px;
+        }
+        .menu{
+            width: 60%;
+            margin-left: 40%;
+        }
+        
+        }
+@media screen and (min-width: 300px) and (max-width: 599px){
+    .nav{
+        height: 50px;
+    }
+    .logoone {
+        background-color: #333;
+        height: 100%;
+    }
+    .titulo-principal{
+        width: 70%;
+    }
+    .logo{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 75px;
+            height: 50px;
+        }
+    .titulo-principal_h1{
+        font-size: 22.5px;
+        color: #fff;
+    }
+    .logotwo{
+         height: 10%;
+           overflow: hidden;
+           background-color: #333;
+           position: fixed;
+           bottom: 0;
+           width: 100%;
+           margin-left: 0;
+           z-index: 9999;
+    }
+   .menu{
+    width: 100%;
+    margin: 0;
+   }
+    .Desarrollo-personal,.Libros,.Historias{
+        width: 33%;
+    }
+    .Desarrollo-personal-logo,.Libros-logo,.Historia-logo{
+        display: flex;
+        justify-content: end;
+    }
+}

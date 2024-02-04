@@ -1,0 +1,67 @@
+.seccion{
+    width: 85%;
+    height: auto;
+    margin-left: 7.5%;
+    display: flex;
+    justify-content: center;
+}
+
+/* titulo de la seccion*/
+.titulo-seccion{
+    width: 85%;
+    margin-left: 7.55%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.titulo-seccion_h1{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.article{
+    width: 1400px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px,1fr));
+   grid-gap:10px;
+    margin-top: 50px;  
+}
+.article-iten{
+    width:100%;
+    height: 100%;
+    margin:5% 2%;
+    background-color: antiquewhite;
+    position: relative;
+    border:2px solid black ;
+}
+
+/* img */
+.article-iten-img{
+    width: 100%;
+    height: 100%;
+}
+
+/*articulo play*/
+.article-iten-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    
+}
+.fa-book-open{
+    font-size: 30px;
+    color:red;
+}
+.fa-book-open:hover{
+    font-size: 40px;
+    color: blue;
+}

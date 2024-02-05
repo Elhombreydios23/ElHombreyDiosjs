@@ -60,6 +60,7 @@
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    cursor: pointer;
 }
 .play-header{
     width: 50%;
@@ -80,6 +81,10 @@
 .fa-play{
     color: red;
     font-size: 50px;
+    cursor: pointer;
+}
+#play{
+    cursor: pointer;
 }
 @media screen and (min-width: 900px) and (max-width: 999px){
     .header-index{
@@ -110,4 +115,34 @@
         left: 4px;
 
     }
+}
+@media screen and (min-width: 600px) and (max-width: 699px){
+    .header-index{
+        height: 200px;
+    }
+    .info{
+        bottom: 10px;
+        left: 4px;
+         width: 100px;
+         height: 100px;
+    }
+.fa-play{
+ font-size: 30px;
+}
+
+}
+@media screen and (min-width: 300px) and (max-width: 599px){
+    .header-index{
+        height: 150px;
+    }
+    .info{
+        bottom: 10px;
+        left: 4px;
+         width: 75px;
+         height: 75px;
+    }
+.fa-play{
+ font-size: 20px;
+}
+
 }

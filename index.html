@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/seccion/seccion.one.css">
     <link rel="stylesheet" href="css/seccion/seccion-two.css">
     <link rel="stylesheet" href="css/redes.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/footer.css">
 
    <script src="js/header/header.js"></script>
     <title>El hombre y dios</title>
@@ -63,18 +65,18 @@
     </nav>
 <header class="header-index">
     <div class="header-img">
-  <img class="img-principal" id="img-header"  src="img/header/img1.jpg" >
+  <img class="img-principal" id="img-header"  src="img/header/img2.jpg" >
 </div>
 <div class="info">
     <div class="info-titulo">
         <h1 class="info-titulo_h1">La mejor version del rey kingboy</h1>
     </div>
     <div class="info-play">
-  <div class="play-header">
+  <div class="play-header" id="play" onclick="console.log('gelo')">
     <i class="fa-solid fa-play" ></i></i>
   </div>
   <div class="texto-header">
-    <h1 class="texto-header_h1">+</h1>
+    <h1 class="texto-header_h1" id="enlaces" onclick="cambiarEnlace()">+</h1>
   </div>
 </div>
 </div>
@@ -124,6 +126,35 @@
 
 </div>
 
+<div class="videos">
+    <div class="video-principal">
+        <img class="video-principal_img" src="" alt="">
+    </div>
+    <div class="videos-secundario">
+        <div class="video-secundario_video">
+            <img class="video-secundario_video_img" src="" alt="">
+            <div class="video-secundario_icono">
+                <i class="fa-solid fa-play icono"></i>
+            </div>
+        </div>
+        <div class="video-secundario_video">
+            <img class="video-secundario_video_img" src="" alt="">
+            <div class="video-secundario_icono">
+                <i class="fa-solid fa-play icono"></i>
+            </div>
+        </div>
+        <div class="video-secundario_video">
+            <img class="video-secundario_video_img" src="" alt="">
+            <div class="video-secundario_icono">
+                <i class="fa-solid fa-play icono"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer"> <h1 class="footer_h1">El Hombre Y Dios</h1></div>
+</footer>
 
 </body>
 </html>

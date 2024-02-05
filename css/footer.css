@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.footer_h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}

@@ -4,11 +4,13 @@
     height: 300px;
     display: flex;
     margin-top: 50px;
+ 
 }
 .redes-one,.redes-two{
     width: 50%;
     height: 100%;
-    display: flex;    
+    display: flex;  
+    border-bottom: 2px solid black;  
 }
 .redes-one-img,.redes-one-p{
     width: 50%;
@@ -53,4 +55,96 @@
 }
 .redes-one-p_p{
     font-size: 20px;
+}
+@media screen and (min-width: 900px) and (max-width: 999px){
+    .redes-one-p_p,.redes-two-p_p{
+        font-size: 16px;
+    }
+    .fa-tiktok{
+        font-size: 110px;
+        margin-top: 100px;
+    }
+    .fa-youtube{
+        font-size: 110px;
+        margin-top: 85px;
+    }
+   
+}
+@media screen and (min-width: 800px) and (max-width: 899px){
+    .redes-one-p_p,.redes-two-p_p{
+        font-size: 14px;
+    }
+    .fa-tiktok{
+        font-size: 110px;
+        margin-top: 100px;
+    }
+    .fa-youtube{
+        font-size: 110px;
+        margin-top: 85px;
+    }
+   
+}
+@media screen and (min-width: 700px) and (max-width: 799px){
+    .redes-one-p_p,.redes-two-p_p{
+        font-size: 13px;
+    }
+    .fa-tiktok{
+        font-size: 100px;
+        margin-top: 100px;
+    }
+    .fa-youtube{
+        font-size: 110px;
+        margin-top: 95px;
+    }
+   
+}
+@media screen and (min-width: 600px) and (max-width: 699px){
+    .redes-one-p_p,.redes-two-p_p{
+        font-size: 10px;
+    }
+    .fa-tiktok{
+        font-size: 100px;
+        margin-top: 100px;
+    }
+    .fa-youtube{
+        font-size: 110px;
+        margin-top: 95px;
+    }
+   
+}
+@media screen and (min-width: 300px) and (max-width: 599px){
+    .redes{
+       width: 90%;
+       margin-left:5% ;
+        height: 300px;
+        display: block;
+        margin-top: 00px;
+     
+    }
+    .redes-one,.redes-two{
+        width: 100%;
+        height: 50%;
+        display: flex;  
+        border-bottom: 0;  
+    }
+    
+    .redes-one-p_p,.redes-two-p_p{
+        font-size: 10px;
+    }
+    .fa-tiktok{
+        font-size: 75px;
+        margin-top: 10px;
+    }
+    .fa-youtube{
+        font-size: 75px;
+        margin-top: 9px;
+    }
+    .redes-one-img{
+        display: flex;
+        align-items: center;
+    }
+   .redes-two-img{
+    display: flex;
+    align-items: center;
+   }
 }

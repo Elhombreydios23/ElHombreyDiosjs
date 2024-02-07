@@ -29,12 +29,13 @@
 .fa-tiktok{
     font-size: 150px;
     margin-top: 50px;
-    
+    cursor: pointer;
 }
 .fa-youtube{
     font-size: 150px;
     margin-top: 50px;
     color: red;
+    cursor: pointer;
 }
 .redes-two-p{
     width: 100%;
@@ -52,9 +53,11 @@
 }
 .redes-two-p_p{
     font-size: 20px;
+    
 }
 .redes-one-p_p{
     font-size: 20px;
+    
 }
 @media screen and (min-width: 900px) and (max-width: 999px){
     .redes-one-p_p,.redes-two-p_p{

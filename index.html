@@ -8,14 +8,12 @@
     <link rel="stylesheet" href="css/header/header-index.css">
     <script src="https://kit.fontawesome.com/13798e8cfe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <link rel="stylesheet" href="css/seccion/seccion.css">
-    <link rel="stylesheet" href="css/seccion/seccion.one.css">
-    <link rel="stylesheet" href="css/seccion/seccion-two.css">
-    <link rel="stylesheet" href="css/redes.css">
-    <link rel="stylesheet" href="css/video.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index/seccion.css">
+    <link rel="stylesheet" href="css/index/redes.css">
+    <link rel="stylesheet" href="css/index/video.css">
+    <link rel="stylesheet" href="css/index/footer.css">
 
-   <script src="js/header/header.js"></script>
+  <!--  <script src="js/header/header.js"></script>-->
     <title>El hombre y dios</title>
 </head>
 <body style="margin: 0;">
@@ -54,7 +52,7 @@
                 <div class="Historias">
                     <div class="Historias_div">
                         <div class="Historia-logo">
-                            <img class="icono" src="img/icono/comic.png" alt="">
+                            <img class="icono" src="img/icono/icono-Cómic.png" alt="">
                         </div>
                         <div class="Historias-titulo">
                             <h1 class="parrafo-header">Comic</h1>
@@ -66,18 +64,18 @@
     </nav>
 <header class="header-index">
     <div class="header-img">
-  <img class="img-principal" id="img-header"  src="img/header/img2.jpg" >
+  <img class="img-principal" id="img-header"  src="img/recomendados/esther.png" >
 </div>
 <div class="info">
     <div class="info-titulo">
-        <h1 class="info-titulo_h1">La mejor version del rey kingboy</h1>
+     <!--   <h1 class="info-titulo_h1">Descubre las valiosas lecciones que se ocultan en la historia de Esther</h1>-->
     </div>
     <div class="info-play">
-  <div class="play-header" id="play" onclick="console.log('gelo')">
+  <div class="play-header" id="play" onclick="window.location.href='Desarrollo P/LeccionesDeEsther.html'">
     <i class="fa-solid fa-play" ></i></i>
   </div>
   <div class="texto-header">
-    <h1 class="texto-header_h1" id="enlaces" onclick="cambiarEnlace()">+</h1>
+    <button class="texto-header_h1" id="enlaces" onclick="window.location.href='Desarrollopersonal.html'"  >+</button>
   </div>
 </div>
 </div>
@@ -89,39 +87,28 @@
     <div class="article-iten">
         <img class="article-iten-img" src="img/recomendados/esther.png" alt="Lecciones de esther">
         <div class="article-iten-info">
-            <i class="fa-solid fa-book-open" ></i>
+            <i onclick="window.location.href='Desarrollo P/LeccionesDeEsther.html'" class="fa-solid fa-book-open" ></i>
         </div>
     </div>
-    <div class="article-iten">
-        <img class="article-iten-img" src="img/recomendados/esther.png" alt="Lecciones de esther">
-        <div class="article-iten-info">
-            <i class="fa-solid fa-book-open" ></i>
-        </div>
-    </div>
-    <div class="article-iten">
-        <img class="article-iten-img" src="img/recomendados/esther.png" alt="Lecciones de esther">
-        <div class="article-iten-info">
-            <i class="fa-solid fa-book-open" ></i>
-        </div>
-    </div>
+ 
    
 </article>
 </section>
 <div class="redes">
    <div class="redes-one">
     <div class="redes-one-img">
-        <i class="fa-brands fa-youtube"></i>
+        <i onclick="window.open('http://www.youtube.com/@Elhombre.espiritual')" class="fa-brands fa-youtube"></i>
     </div>
     <div class="redes-one-p">
-        <p class="redes-one-p_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsam deleniti aliquam quibusdam ratione nesciunt molestiae harum corporis ullam nam illum sit, quos porro quaerat sapiente beatae quasi facere ea?</p>
+        <p class="redes-one-p_p">Búscanos en nuestras redes sociales. Donde verás contenidas que de seguro te gustaran, ya que nos concentramos en buscar lo bueno que nos deja la biblia. Encontrando todos esos tesoros de sabiduría</p>
     </div>
    </div>
    <div class="redes-two">
     <div class="redes-two-img">
-        <i class="fa-brands fa-tiktok" ></i>
+        <i onclick="window.open('https://www.tiktok.com/@elhombre_dios.99?is_from_webapp=1&sender_device=pc')" class="fa-brands fa-tiktok" ></i>
     </div>
     <div class="redes-two-p">
-        <p class="redes-two-p_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim reiciendis ipsum aliquid, exercitationem asperiores aspernatur vero autem. Iure quos rem nobis provident non nesciunt quibusdam iusto eligendi, dolore necessitatibus.</p>
+        <p class="redes-two-p_p">Búscanos en nuestras redes sociales. Donde verás contenidas que de seguro te gustaran, ya que nos concentramos en buscar lo bueno que nos deja la biblia. Encontrando todos esos tesoros de sabiduría</p>
     </div>
    </div>
 
@@ -129,25 +116,28 @@
 
 <div class="videos">
     <div class="video-principal">
-        <img class="video-principal_img" src="" alt="">
+        <img class="video-principal_img" src="img/index/josias.webp" alt="">
+        <div class="video-secundario_icono">
+            <i onclick="window.open('https://youtu.be/a94SZdSMw5U')"  class="fa-solid fa-play icono"></i>
+        </div>
     </div>
     <div class="videos-secundario">
         <div class="video-secundario_video">
-            <img class="video-secundario_video_img" src="" alt="">
+            <img class="video-secundario_video_img" src="img/index/jehosfaf.jpg" alt="">
             <div class="video-secundario_icono">
-                <i class="fa-solid fa-play icono"></i>
+                <i onclick="window.open('https://youtu.be/OQ-wal6zDlM')" class="fa-solid fa-play icono"></i>
             </div>
         </div>
         <div class="video-secundario_video">
-            <img class="video-secundario_video_img" src="" alt="">
+            <img class="video-secundario_video_img" src="img/index/proberbio1-5.webp" alt="">
             <div class="video-secundario_icono">
-                <i class="fa-solid fa-play icono"></i>
+                <i onclick="window.open('https://youtu.be/xkbFM6W5KwU')" class="fa-solid fa-play icono"></i>
             </div>
         </div>
         <div class="video-secundario_video">
-            <img class="video-secundario_video_img" src="" alt="">
+            <img class="video-secundario_video_img" src="img/index/matrimonio.jpg" alt="">
             <div class="video-secundario_icono">
-                <i class="fa-solid fa-play icono"></i>
+                <i onclick="window.open('https://youtu.be/tBPztqluvAY')" class="fa-solid fa-play icono"></i>
             </div>
         </div>
     </div>

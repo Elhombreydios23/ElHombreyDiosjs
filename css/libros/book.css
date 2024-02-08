@@ -14,9 +14,15 @@ article{
     justify-content: center;
     text-align: center;
 }
-article h1{
+.article-h1{
     color: white;
     font-size: 40px;
     font-weight: 800;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width: 300px) and (max-width: 599px){
+    .article-h1{
+        font-size: 20px;
+        color: aliceblue;
+    }
 }

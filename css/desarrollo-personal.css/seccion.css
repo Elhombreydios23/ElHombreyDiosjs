@@ -98,14 +98,21 @@
 @media screen and (min-width: 300px) and (max-width:599px){
     .section{
     width: 98%;
-    margin-left:2%;
+    margin-left:1%;
+   
 }
+
 .carrusel{
+    width: 97%;
+    margin-left: 1.5%;
     height: 120px;
-    justify-content: center;
+    
+    overflow-x: auto;
+    overflow-y: hidden;
+    
 }
 .carrusel-iten{
-    min-width: 300px;
+    min-width: 180px;
     height: 100%;
 }
 .titulo{

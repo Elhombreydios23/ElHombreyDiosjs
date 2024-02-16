@@ -7,12 +7,14 @@ section{
     position: relative;
 }
 .carrusel-two{
-    width: 100%;
+    width: 97%;
+    margin-left: 1.5%;
     height: 90%;
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
     margin-bottom: 50px;
+    grid-gap:30px;
     
 }
 .carrusel-iten-two{
@@ -55,6 +57,11 @@ color: red;
 }
 @media screen and (min-width: 300px) and (max-width: 599px){
 .carrusel-two{
-    justify-content: center;
+  
+    height: 260px;
+    grid-gap:15px;
+}
+.carrusel-iten-two{
+    min-width: 180px;
 }
 }
